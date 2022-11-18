@@ -1,0 +1,84 @@
+:root {
+	--dark: #292C35;
+	--light: #F1F1F1;
+	--label: #111;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: var(--light);
+}
+
+body.dark {
+    background-color: var(--dark);
+}
+
+.title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    transition: all .5s ease-in-out;
+}
+
+body.dark .title {
+    content: "Escuro";
+    color: var(--light);
+}
+
+.button {
+    position: relative;
+    width: 236px;
+    height: 102px;
+    background-color: var(--dark);
+    border-radius: 75px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.button .icons img {
+    width: 85px;
+    height: 85px;
+}
+
+.slider {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: var(--light);
+    transition: all .5s ease-in-out;
+}
+
+body.dark .button {
+    background-color: lightgray; 
+}
+
+body.dark .slider{
+    transform: translateX(135px);
+    background-color: var(--dark);
+}
+

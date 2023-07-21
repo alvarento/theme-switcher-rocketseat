@@ -14,4 +14,4 @@ Foi utilizado como base o seguinte layout:
 ## :thumbsup: Resultado final
 <h3>Quer ver :eyes: como ficou o resultado final?<br>
 da uma olhada no link da página: :point_down:</h3>
-<h3>:smirk::point_right: <a href="https://alvaronascimento04.github.io/theme-switcher-rocketseat" target="_blank">Alternador de Temas</a></h3>
+<h3>:smirk::point_right: <a href="https://alvaronascimento-dev.github.io/theme-switcher-rocketseat" target="_blank">Alternador de Temas</a></h3>

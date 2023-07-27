@@ -9,7 +9,7 @@ Este projeto foi proposto na plataforma da **Rocketseat** da trilha Discover. Co
 O Objetivo desse desafio é desenvolver uma página que contenha um toggle para alternar entre o tema dark e light.
 Foi utilizado como base o seguinte layout:
 
-![Layout Theme Switcher](assets/preview.gif)
+![Layout Theme Switcher](https://1drv.ms/i/s!AkCFKoDODzMpgZRQGJ2oNbrFEMZRIA?e=6uRMYF#vitrinedev)
 
 ## :thumbsup: Resultado final
 <h3>Quer ver :eyes: como ficou o resultado final?<br>
